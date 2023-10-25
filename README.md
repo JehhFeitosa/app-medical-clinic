@@ -25,15 +25,15 @@ https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
         "email" : "feitosa@gmail.com",
         "crm" : "123456",
         "especialidade" : "ORTOPEDIA",
-            "endereco" : {
-                "logradouro" : "Rua: Primeiro de Maio",
-                "bairro" : "Maria Beatriz",
-                "cep" : "06365745",
-                "cidade" : "Brasilia",
-                "uf" : "SP",
-                "numero" : "1",
-                "complemento" : "complemento"
-            }
+        "endereco" : {
+            "logradouro" : "Rua: Primeiro de Maio",
+            "bairro" : "Maria Beatriz",
+            "cep" : "06365745",
+            "cidade" : "Brasilia",
+            "uf" : "SP",
+            "numero" : "1",
+            "complemento" : "complemento"
+        }
         }'   
 <br>
 
