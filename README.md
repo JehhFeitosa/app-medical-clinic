@@ -56,6 +56,13 @@ https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
         }'
 <br>
 
+- [x] DELETE (Update of Doctors)
+   <details><summary>Curl</summary>
+        <p>
+  
+        curl --location --request DELETE 'http://localhost:8080/medicos/id'
+<br>
+
 
 <a href="https://github.com/JehhFeitosa">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/58116519?s=400&u=8b96c6759c724308b3cfb9e6a2480fad3f5107c2&v=4" width="100px;" alt=""/>
