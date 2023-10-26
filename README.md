@@ -14,7 +14,7 @@ https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
 ## Features 💻
 
 
-- [x] Doctors Registration.
+- [x] POST (Doctors Registration)
    <details><summary>Curl</summary>
         <p>
   
@@ -25,16 +25,23 @@ https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
         "email" : "feitosa@gmail.com",
         "crm" : "123456",
         "especialidade" : "ORTOPEDIA",
-            "endereco" : {
-                "logradouro" : "Rua: Primeiro de Maio",
-                "bairro" : "Maria Beatriz",
-                "cep" : "06365745",
-                "cidade" : "Brasilia",
-                "uf" : "SP",
-                "numero" : "1",
-                "complemento" : "complemento"
-            }
+        "endereco" : {
+            "logradouro" : "Rua: Primeiro de Maio",
+            "bairro" : "Maria Beatriz",
+            "cep" : "06365745",
+            "cidade" : "Brasilia",
+            "uf" : "SP",
+            "numero" : "1",
+            "complemento" : "complemento"
+        }
         }'   
+<br>
+
+- [x] GET (List of Doctors)
+   <details><summary>Curl</summary>
+        <p>
+  
+        curl --location --request GET 'http://localhost:8080/medicos' 
 <br>
 
 
