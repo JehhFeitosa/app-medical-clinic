@@ -44,6 +44,18 @@ https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
         curl --location --request GET 'http://localhost:8080/medicos' 
 <br>
 
+- [x] PUT (Update of Doctors)
+   <details><summary>Curl</summary>
+        <p>
+  
+        curl --location --request PUT 'http://localhost:8080/medicos' \
+        --header 'Content-Type: application/json' \
+        --data-raw '{
+         "id": 5,
+         "nome" : "Joana"
+        }'
+<br>
+
 
 <a href="https://github.com/JehhFeitosa">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/58116519?s=400&u=8b96c6759c724308b3cfb9e6a2480fad3f5107c2&v=4" width="100px;" alt=""/>
